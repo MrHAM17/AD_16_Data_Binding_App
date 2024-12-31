@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!-- Step 1: Add the <layout> root tag to enable data binding -->
+<layout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <!-- Step 2: Define data binding variables -->
+    <data>
+        <!-- Step 2.1: Bind to the 'Person' class -->
+        <variable
+            name="person"
+            type="com.example.databinding.Person" />
+
+        <!-- Step 2.2: Bind to the 'MyClickHandler' class for handling click events -->
+        <variable
+            name="clickHandler"
+            type="com.example.databinding.MyClickHandler" />
+    </data>
+
+    <!-- Step 3: Design the UI inside ConstraintLayout -->
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".MainActivity">
+
+        <!-- Step 4: Display the name property from the 'Person' object -->
+        <TextView
+            android:text="@{person.name}"
+            android:id="@+id/textView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <!-- Step 5: Add a button to trigger the click event handler -->
+        <Button
+            android:onClick="@{clickHandler.onButton1Clicked}"
+            android:id="@+id/button3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="166dp"
+            android:text="Click Me!"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</layout>
