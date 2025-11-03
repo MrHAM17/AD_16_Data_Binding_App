@@ -87,7 +87,7 @@ Data Binding increases developer productivity by making code shorter, simpler, m
         <br>
       </strong>
       <br> 
-      <img src="https://github.com/MrHAM17/AD_16_Data_Binding_App/blob/main/Result%20Pics%20-%202%20Way%20DB/04%20Configuration%20Change%20%26%20Data%20lost.jpg" height="510" width="500">
+      <img src="https://github.com/MrHAM17/AD_16_Data_Binding_App/blob/main/Result%20Pics%20-%202%20Way%20DB/04%20Configuration%20Change%20%26%20Data%20lost.jpg" height="510" width="480">
   <td align="center" style="width:50%;"> 
       <strong>Configuration reset & Data not recovered - 2 Way DB
         <br>
