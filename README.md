@@ -40,3 +40,59 @@ Application introducing the **Android Data Binding Library** to integrate UI com
 Data Binding increases developer productivity by making code shorter, simpler, more readable, and verifiable at compile time (type safety).
 
 ---
+
+### Screenshots
+<table style="width:100%;"> 
+  <tr> 
+    <td align="center" style="width:50%;"> 
+      <strong>Main Screen - Normal DB
+        <br>
+      </strong>
+      <br> 
+      <img src="https://github.com/MrHAM17/AD_16_Data_Binding_App/blob/main/Result%20Pics%20-%20Noraml%20DB/01%20Main%20Screen.jpg" height="510" width="240">
+  </td> 
+    <td align="center" style="width:50%;"> 
+      <strong>Result - Normal DB
+        <br>
+      </strong>
+      <br> 
+      <img src="https://github.com/MrHAM17/AD_16_Data_Binding_App/blob/main/Result%20Pics%20-%20Noraml%20DB/02%20Result.jpg" height="510" width="240"> </td> </tr> </table>
+
+<table style="width:100%;"> 
+  <tr> 
+    <td align="center" style="width:50%;"> 
+      <strong>Main Screen - 2 Way DB
+        <br>
+      </strong>
+      <br> 
+      <img src="https://github.com/MrHAM17/AD_16_Data_Binding_App/blob/main/Result%20Pics%20-%202%20Way%20DB/01%20Main%20Screen.jpg" height="510" width="240"> 
+  </td> 
+    <td align="center" style="width:50%;"> 
+      <strong>Data Binding - 2 Way DB
+        <br>
+      </strong>
+      <br> 
+      <img src="https://github.com/MrHAM17/AD_16_Data_Binding_App/blob/main/Result%20Pics%20-%202%20Way%20DB/02%20Data%20Binding.jpg" height="510" width="240"> 
+  </td> 
+    <td align="center" style="width:50%;"> 
+      <strong>Binded Data - 2 Way DB
+        <br>
+      </strong>
+      <br> 
+      <img src="https://github.com/MrHAM17/AD_16_Data_Binding_App/blob/main/Result%20Pics%20-%202%20Way%20DB/03%20Binded%20Data.jpg" height="510" width="240"> </td> </tr> </table>
+
+<table style="width:100%;"> 
+  <td align="center" style="width:50%;"> 
+      <strong>Configuration Change & Data lost - 2 Way DB
+        <br>
+      </strong>
+      <br> 
+      <img src="https://github.com/MrHAM17/AD_16_Data_Binding_App/blob/main/Result%20Pics%20-%202%20Way%20DB/04%20Configuration%20Change%20%26%20Data%20lost.jpg" height="510" width="500">
+  <td align="center" style="width:50%;"> 
+      <strong>Configuration reset & Data not recovered - 2 Way DB
+        <br>
+      </strong>
+      <br> 
+      <img src="https://github.com/MrHAM17/AD_16_Data_Binding_App/blob/main/Result%20Pics%20-%202%20Way%20DB/05%20Configuration%20reset%20%26%20Data%20not%20recovered.jpg" height="510" width="240"> </td> </tr> </table>
+
+---
